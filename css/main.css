@@ -94,10 +94,6 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
-.hide {
-  display: none;
-}
-
 body {
   display: flex;
   align-items: center;
@@ -151,14 +147,14 @@ header i {
 }
 
 .info-txt.error {
-  display: none;
+  display: block;
   color: #723c24;
   background: #f8d7da;
   border: 1px solid #f5c6cb;
 }
 
 .info-txt.pending {
-  display: none;
+  display: block;
   color: #0c5460;
   background: #d1ecf1;
   border: 1px solid #bee5eb;
