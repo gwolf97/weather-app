@@ -4,6 +4,7 @@ infoTxt = wrapper.querySelector(".info-txt")
 inputField = inputPart.querySelector("input")
 locationBtn = inputPart.querySelector("button")
 const wIcon = document.querySelector(".weather-part img")
+const arrowBack = document.querySelector("header i")
 
 inputField.addEventListener("keyup", function(e){
     //if user pressed enter btn and input value is not empty
@@ -91,3 +92,8 @@ const weatherDetails = function(weatherData){
     }
    
 }
+
+arrowBack.addEventListener("click", function(){
+    wrapper.classList.remove("active")
+    inputField.innerText = ""
+})
